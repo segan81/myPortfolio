@@ -1,2 +1,2 @@
-# myPortfolio
-my portfolio
+# my Personal Portfolio
+My personal portfolio, first version
