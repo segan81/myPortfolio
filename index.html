@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sergio Vargas - Portafolio</title>
+  <link rel="icon" type="image/png" href="images/favicon.png"/>
 </head>
 <body>
   <header>
     <div>
       <figure>
-        <img> logo
+        <img alt="logo" src="images/logo.png"/> 
       </figure>
+      <nav>
+        <ol>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#subscribe">Trabajemos juntos</a></li>
+        </ol>
+      </nav>
     </div>
   </header>
   <section>
     <h1>Hola! Soy <strong>Sergio Vargas</strong>, Desarrollador <strong>FullStack</strong> <br/> me gusta el aprendizaje de cosas nuevas </h1>
-    <img> imagen de portada
+    <img src="images/hero.jpg" width="500" alt="imagen principal del sitio">
   </section>
-  <section>
-    <h2>Portfolio (Proyectos Destacados)</h2>
+  <section id="portfolio">
+    <h2>Portafolio (Proyectos Destacados)</h2>
     <article>
       <h3>Blog</h3>
       <h6>Memorias de un desarrollador de software</h6>
@@ -26,8 +34,15 @@
       <p><small><strong>Puedes verlo en:</strong> http://memoriasdesarrolladorsoftware.blogspot.com/</small></p>
     </article>
   </section>
-  <section>Sección Eventos</section>
-  <section>Sección Contacto</section>
+  <section id="experience">Sección Experiencia</section>
+  <section id="events">Sección Eventos</section>
+  <section id="subscribe">
+    <form action="subscription">
+     <h3>¿Creamos algo juntos?</h3>
+      <input id="email" type="text" placeholder="Dejame tu email">
+      <button>Enviar</button>
+    </form>
+  </section>
   <footer>footer</footer>
 </body>
 </html>
